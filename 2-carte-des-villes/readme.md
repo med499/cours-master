@@ -110,11 +110,13 @@
     +                  </div>
     +               </nav>
     +           </header>
-    +           <main class="h-100 row">
-    +               <div id="map" class="h-100 col-9 m-0 p-0">
+    +           <main class="h-100 row m-0 p-0">
+    +              <div id="map" class="h-100 col-9 m-0 p-0">
     +                   <!-- map container -->
     +               </div>
-    +               <div class="h-100 col-3 bg-secondary m-0 p-2"></div>
+    +               <div class="h-100 col-3 bg-secondary m-0 p-2">
+    +                    <div id="mouse-position" class="badge badge-pill badge-primary w-100 p-1"></div>
+    +               </div>
     +           </main>
     +           <footer class="footer mt-auto bg-dark">
     +               <div class="container">
@@ -126,24 +128,10 @@
         </html>
     ```
 
-2. Ajouter le contenu javascript (pour démarrer une carte openlayers avec un fond open street Maps)
+### **Exercice**
 
-    ```javascript
-        // instancier la carte openlayers
-        const map = new ol.Map({
-            // l'id de l'element html de la carte
-            target: "map",
-            // les couches de la carte
-            layers: [
-                // premiere couche : Nouvelle couche tuilée OSM
-                new ol.layer.Tile({
-                    source: new ol.source.OSM(),
-                }),
-            ],
-            // la vue initiale de la carte: Europe WGS84
-            view: new ol.View({
-                center: ol.proj.fromLonLat([9.89, 46.66]),
-                zoom: 4,
-            }),
-        });
-    ```
+1. Créer une carte openlayers dans l'élément html #map avec les options suivantes:
+
+    - Une seule couche tuillée: le fond de carte OpenStreetMaps
+    - Une vue centrée sur l'Europe *(lon: 9.89, lat: 46.66, niveau de zoom: 4)*
+    - Deux contoleurs de carte: l'échelle linéaire et la position du curseur *(dans l'élément #mouse-position)*
