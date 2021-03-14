@@ -134,4 +134,4 @@
 
     - Une seule couche tuillée: le fond de carte OpenStreetMaps
     - Une vue centrée sur l'Europe *(lon: 9.89, lat: 46.66, niveau de zoom: 4)*
-    - Deux contoleurs de carte: l'échelle linéaire et la position du curseur *(dans l'élément #mouse-position)*
+    - Deux contrôleurs de carte: l'échelle linéaire et la position du curseur *(dans l'élément #mouse-position)*
