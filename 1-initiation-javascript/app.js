@@ -29,15 +29,15 @@ class City {
  */
 
 // la ville de paris
-var paris = new City('Paris', 'France',	48.85,	2.27,	2175601);
+var paris = new City('Paris', 'France',	48.86,	2.34,	2175601);
 
 console.log(paris.getDetails()); // -> Paris, France. Population: 2175601 habitants.
 console.log(paris.getPosition()); // -> {lat: 48.85, lon: 2.27}
 
 // les autres villes
-var madrid = new City('Madrid', 'Espagne',	40.44,	-3.82,	3334730);
-var rome = new City('Rome', 'Italie',	41.91,	12.40,	2844395);
-var berlin = new City('Berlin', 'Allemagne',	52.51,	13.15,	3748148);
+var madrid = new City('Madrid', 'Espagne',	40.42,	-3.70,	3334730);
+var rome = new City('Rome', 'Italie',	41.90,	12.50,	2844395);
+var berlin = new City('Berlin', 'Allemagne',	52.51,	13.39,	3748148);
 
 /**
  * créer une liste de villes
