@@ -24,7 +24,11 @@
 
     > /cours_javascript/3-couche-vecteur/img
 
-6. Ajouter un checkbox avec l'id **europe-cities**
+6. Ajouter le fichier css *popup.css* dans le sous dossier css
+
+    > /cours_javascript/3-couche-vecteur/css
+
+7. Ajouter un checkbox avec l'id **europe-cities**
 
     ```diff
         <!DOCTYPE html>
