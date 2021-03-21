@@ -111,3 +111,9 @@
         ...
     ```
 
+### **Exercice**
+
+1. L'objectif de cet exercice est de créer une carte avec une seule couche de type vecteur à partir de la liste des villes (voir exercice de la première séance).
+    - Transformer **la liste des villes** à une **couche de type vecteur**.
+    - Utiliser l'image ***pin.png*** comme symbole des marqueurs.
+    - Afficher la couche ***seulement si*** la checkbox **Capitales d'europe** est cochée.
