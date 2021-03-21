@@ -82,3 +82,31 @@
             <script src="app.js"></script>
         </html>
     ```
+
+8. Ajouter le code html de la popup
+
+    ```diff
+        ...
+        <div class="h-100 col-3 m-0 p-2">
+            <div class="card mt-3">
+                <div class="card-header">
+                    La liste des couches :
+                </div>
+                <div class="card-body">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="europe-cities">
+                        <label class="form-check-label" for="europe-cities">Capitales d'europe</label>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 p-1">
+                <span>La position du curseur :</span><span  id="mouse-position"></span>
+            </div>
+    +       <div id="map-popup" class="ol-popup">
+    +           <button id="popup-closer" class="ol-popup-closer" onclick="closePopup()"></button>
+    +           <div id="map-popup-content"></div>
+    +       </div>
+        </div>
+        ...
+    ```
+
