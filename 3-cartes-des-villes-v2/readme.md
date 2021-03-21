@@ -28,7 +28,7 @@
 
     > /cours_javascript/3-couche-vecteur/css
 
-7. Ajouter un checkbox avec l'id **europe-cities**
+7. Appliquer les modifications suivantes sur le fichier *index.html*
 
     ```diff
         <!DOCTYPE html>
@@ -39,6 +39,7 @@
                 <title>Carte des villes</title>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css"/>
+    +           <link rel="stylesheet" href="css/popup.css" type="text/css">
                 <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
             </head>
             <body>
