@@ -104,7 +104,7 @@
                 <span>La position du curseur :</span><span  id="mouse-position"></span>
             </div>
     +       <div id="map-popup" class="ol-popup">
-    +           <button id="popup-closer" class="ol-popup-closer" onclick="closePopup()"></button>
+    +           <div id="popup-closer" class="ol-popup-closer" onclick="closePopup()"></div>
     +           <div id="map-popup-content"></div>
     +       </div>
         </div>
