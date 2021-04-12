@@ -40,7 +40,7 @@
         </html>
     ```
 
-8. Ajouter le code HTML des fonds de carte
+8. Ajouter le code HTML des fonds de carte dans le fichier *index.html*
 
     ```diff
         ...
